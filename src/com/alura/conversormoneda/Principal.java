@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        double valorMoneda = 0;
-        double valorConvertido = 0;
+        Scanner teclado = new Scanner(System.in);
+        ConsultarMoneda consultar = new ConsultarMoneda();
+
         int opcion = 0;
 
         String menu = """ 
@@ -17,48 +18,49 @@ public class Principal {
                 4) Real Brasileño [BRL] =>> Dolar [USD]
                 5) Dolar [USD] =>> Peso Argentino [ARS]
                 6) Peso Argentino [ARS] =>> Dolar [USD]
-                7) Salir """;
+                7) Convertir otra Divisa
+                8) Salir """;
 
-        System.out.println("********************************");
-        System.out.println("\n" + menu);
-        System.out.println("\n ********************************");
 
-        Scanner teclado = new Scanner(System.in);
+        while (opcion != 8){
+            System.out.println("********************************");
+            System.out.println("\n" + menu);
+            System.out.println("\n ********************************");
+            System.out.println("Ingrese la opcion que desea realizar: ");
 
-        while (opcion != 7){
-            System.out.println("Ingrese la opcion de conversion: ");
             opcion = teclado.nextInt();
+            teclado.nextLine();
 
             switch (opcion){
                 case 1:
-                    System.out.println("$" + valorMoneda + " [USD] Equivalen a " + "$" + valorConvertido + " [COP]");
+                    ConvertirMoneda.convertir("USD", "COP", consultar, teclado);
                     break;
                 case 2:
-                    System.out.println("$" + valorMoneda + " [COP] Equivalen a " + "$" + valorConvertido + " [USD]");
+                    ConvertirMoneda.convertir("COP", "USD", consultar, teclado);
                     break;
                 case 3:
-                    System.out.println("$" + valorMoneda + " [USD] Equivalen a " + "$" + valorConvertido + " [BRL]");
+                    ConvertirMoneda.convertir("USD", "BRL", consultar, teclado);
                     break;
                 case 4:
-                    System.out.println("$" + valorMoneda + " [BRL] Equivalen a " + "$" + valorConvertido + " [USD]");
+                    ConvertirMoneda.convertir("BRL", "USD", consultar, teclado);
                     break;
                 case 5:
-                    System.out.println("$" + valorMoneda + " [USD] Equivalen a " + "$" + valorConvertido + " [ARS]");
+                    ConvertirMoneda.convertir("USD", "ARS", consultar, teclado);
                     break;
                 case 6:
-                    System.out.println("$" + valorMoneda + " [ARS] Equivalen a " + "$" + valorConvertido + " [USD]");
+                    ConvertirMoneda.convertir("ARS", "USD", consultar, teclado);
                     break;
                 case 7:
+                    ConvertirMoneda.convertirOtraDivisa(consultar, teclado);
+                    break;
+                case 8:
                     System.out.println("Saliendo del conversor de moneda, Gracias por utilizar nuestros servicios");
                     break;
                 default:
                     System.out.println("Opcion no valida!");
             }
 
-
-
         }
-
 
     }
 }
