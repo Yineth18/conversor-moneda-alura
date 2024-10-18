@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc4c779a-1ed1-4218-bca3-bc91c643b5d1" name="Changes" comment="" />
+    <list default="true" id="bc4c779a-1ed1-4218-bca3-bc91c643b5d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversorMoneda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversorMoneda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConsultarMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConsultarMoneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConvertirMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConvertirMoneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/Divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/Divisas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,18 +31,45 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2nL0UpIGtzUUMZiIKVQp27zVlAy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/JOAN ESCALANTE/Downloads/gson-2.11.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alura.conversormoneda.Principal" />
+      <module name="conversorMoneda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alura.conversormoneda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
