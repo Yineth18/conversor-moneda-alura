@@ -2,6 +2,7 @@ package com.alura.conversormoneda;
 
 import java.util.Scanner;
 
+
 public class Principal {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -19,10 +20,11 @@ public class Principal {
                 5) Dolar [USD] =>> Peso Argentino [ARS]
                 6) Peso Argentino [ARS] =>> Dolar [USD]
                 7) Convertir otra Divisa
-                8) Salir """;
+                8) Mostrar Historial Conversion Divisas
+                9) Salir """;
 
 
-        while (opcion != 8){
+        while (opcion != 9){
             System.out.println("********************************");
             System.out.println("\n" + menu);
             System.out.println("\n ********************************");
@@ -54,6 +56,9 @@ public class Principal {
                     ConvertirMoneda.convertirOtraDivisa(consultar, teclado);
                     break;
                 case 8:
+                    ConvertirMoneda.mostrarHistorial();
+                    break;
+                case 9:
                     System.out.println("Saliendo del conversor de moneda, Gracias por utilizar nuestros servicios");
                     break;
                 default:

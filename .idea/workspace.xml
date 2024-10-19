@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc4c779a-1ed1-4218-bca3-bc91c643b5d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/HistorialDivisas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conversorMoneda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversorMoneda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConsultarMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConsultarMoneda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConvertirMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/ConvertirMoneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/Divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/Divisas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/conversormoneda/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/conversormoneda/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
